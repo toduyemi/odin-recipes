@@ -1,16 +1,28 @@
 * {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10px;
+}
+h3 {
+ 
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 0;
 }
 
 .title {
-    margin-left: 20px;
+    
 }
 .line {
     border-bottom: 4px solid black;
-    margin: 20px;
+    margin-bottom: 20px;
+    
 }
 
 .images {
+ width: 500px;
  
 }
 .card-title {
@@ -19,10 +31,11 @@
 }
 .container {
     display: flex;
+    justify-content: space-around;
     margin-left: 20px;
 }
 
 .recipe {
-    flex: auto;
+    
 }
 
